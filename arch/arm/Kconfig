@@ -812,6 +812,9 @@ config TARGET_STM32F429_DISCOVERY
 	bool "Support STM32F429 Discovery"
 	select CPU_V7M
 
+config TARGET_STM32F746_DISCOVERY
+	bool "Support STM32F746 Discovery"
+	select CPU_V7M
 endchoice
 
 source "arch/arm/mach-at91/Kconfig"
@@ -955,6 +958,7 @@ source "board/spear/x600/Kconfig"
 source "board/st-ericsson/snowball/Kconfig"
 source "board/st-ericsson/u8500/Kconfig"
 source "board/st/stm32f429-discovery/Kconfig"
+source "board/st/stm32f746-discovery/Kconfig"
 source "board/st/stv0991/Kconfig"
 source "board/sunxi/Kconfig"
 source "board/syteco/zmx25/Kconfig"

@@ -1,0 +1,5 @@
+M:	Adrien Pre <adrien.pre+uboot@free.fr>
+S:	Maintained
+F:	board/st/stm32f746-discovery/
+F:	include/configs/stm32f746-discovery.h
+F:	configs/stm32f746-discovery_defconfig
